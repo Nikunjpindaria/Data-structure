@@ -1,0 +1,10 @@
+public class RemoveVowels {
+    public static String removeVowels(String s) {
+        return s.replaceAll("(?i)[aeiou]", "");
+    }
+
+    public static void main(String[] args) {
+        String input = "Hello World";
+        System.out.println("After removing vowels: " + removeVowels(input));
+    }
+}
