@@ -8,7 +8,7 @@ public class CheckSorted {
                 isSorted = false;
                 break;
             }
-        }
+        } 
 
         System.out.println("Is array sorted? " + isSorted);
     }
