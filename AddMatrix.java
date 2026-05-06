@@ -10,7 +10,7 @@ int[][] matrix2 = {
     {7, 8, 9},
     {10, 11, 12} 
 };
-
+  
 int[][] resultMatrix = new int[3][3];
 
 for (int i = 0; i < 3; i++) {
